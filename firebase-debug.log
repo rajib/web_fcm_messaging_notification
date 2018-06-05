@@ -1,0 +1,41 @@
+[debug] [2018-05-30T07:09:26.857Z] ----------------------------------------------------------------------
+[debug] [2018-05-30T07:09:26.859Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve -p 8081
+[debug] [2018-05-30T07:09:26.860Z] CLI Version:   3.18.5
+[debug] [2018-05-30T07:09:26.860Z] Platform:      darwin
+[debug] [2018-05-30T07:09:26.860Z] Node Version:  v6.4.0
+[debug] [2018-05-30T07:09:26.860Z] Time:          Wed May 30 2018 12:39:26 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:26.861Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-30T07:09:26.873Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-30T07:09:26.873Z] > authorizing via signed-in user
+[debug] [2018-05-30T07:09:26.876Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-30T07:09:26.876Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/TYx2LyincZT2keNUZb6JPT7cXMw03JZ81mQPx2KhLkk',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 30 2018 12:39:26 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:28.619Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T07:09:28.622Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sometest-35c91  
+  
+ Wed May 30 2018 12:39:28 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:30.489Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T07:09:30.491Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sometest-35c91/tokens  
+  
+ Wed May 30 2018 12:39:30 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:31.540Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T07:09:31.542Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sometest-35c91  
+  
+ Wed May 30 2018 12:39:31 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:33.187Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/rajib/Desktop/fcm_messaging'...
+[info] 
+[debug] [2018-05-30T07:09:33.191Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/291298551212/clients/_:getWebAppConfig  
+  
+ Wed May 30 2018 12:39:33 GMT+0530 (IST)
+[debug] [2018-05-30T07:09:34.918Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:8081
+
